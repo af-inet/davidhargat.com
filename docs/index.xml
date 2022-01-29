@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Hargat</title>
-    <link>/</link>
+    <link>https://davidhargat.com/</link>
     <description>Recent content on David Hargat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2020, David Hargat.</copyright>
-    <lastBuildDate>Sat, 12 Sep 2020 21:38:31 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Sep 2020 21:38:31 -0400</lastBuildDate><atom:link href="https://davidhargat.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>other blogs</title>
-      <link>/blog/other-blogs/</link>
+      <link>https://davidhargat.com/blog/other-blogs/</link>
       <pubDate>Sat, 12 Sep 2020 21:38:31 -0400</pubDate>
       
-      <guid>/blog/other-blogs/</guid>
+      <guid>https://davidhargat.com/blog/other-blogs/</guid>
       <description>Some other blogs I enjoy ❤️
 Julia Evans
 James Fisher
@@ -26,10 +26,10 @@ evilsocket</description>
     
     <item>
       <title>so I wrote a web server</title>
-      <link>/blog/i-wrote-a-web-server/</link>
+      <link>https://davidhargat.com/blog/i-wrote-a-web-server/</link>
       <pubDate>Sun, 26 Mar 2017 23:21:58 -0400</pubDate>
       
-      <guid>/blog/i-wrote-a-web-server/</guid>
+      <guid>https://davidhargat.com/blog/i-wrote-a-web-server/</guid>
       <description>UPDATE 2020:
 This post is no longer accurate since I moved my website from Digital Ocean to Github Pages.
 (this is actually how I ran my site in 2017 though)
@@ -40,10 +40,10 @@ I named it plexer because I wanted to experiment with multiplexing sockets, and 
     
     <item>
       <title></title>
-      <link>/experience/</link>
+      <link>https://davidhargat.com/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/experience/</guid>
+      <guid>https://davidhargat.com/experience/</guid>
       <description>Experience Currently
 GIPHY Senior Software Engineer, 2017-present (Aquired by Facebook)
 Previously

@@ -1,4 +1,4 @@
-# baseURL: 'https://davidhargat.com/'
+baseURL: 'https://davidhargat.com/'
 languageCode: en-us
 title: David Hargat
 theme: hugo-bearblog
