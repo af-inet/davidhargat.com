@@ -1,0 +1,35 @@
+# baseURL: 'https://davidhargat.com/'
+languageCode: en-us
+title: David Hargat
+theme: hugo-bearblog
+author: David Hargat
+copyright: 'Copyright © 2020, David Hargat.'
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+ignoreErrors:
+  - error-disable-taxonomy
+publishDir: "docs"
+# how to add a new link
+# menu:
+#   main:
+#     - identifier: github
+#       name: Github
+#       url: 'https://github.com/af-inet'
+#       weight: 4
+
+menu: []
+
+googleAnalytics: G-WREMP9YVBQ
+
+# permalinks:
+  # blog: '/blogx/'
+  # tags: '/blog/:slug'
+
+params:
+  description: David Hargat's personal blog
+  favicon: images/favicon.png
+  images:
+    - images/share.png
+  title: David Hargat
+  hideMadeWithLine: true

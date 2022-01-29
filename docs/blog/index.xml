@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on David Hargat</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on David Hargat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2020, David Hargat.</copyright>
+    <lastBuildDate>Sat, 12 Sep 2020 21:38:31 -0400</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>other blogs </title>
+      <link>/blog/other-blogs/</link>
+      <pubDate>Sat, 12 Sep 2020 21:38:31 -0400</pubDate>
+      
+      <guid>/blog/other-blogs/</guid>
+      <description>Some other blogs I enjoy ❤️
+James Fisher
+Julia Evans
+Evan Klitzke
+Coding Horror
+Naval
+Lucid Mesh
+evilsocket</description>
+    </item>
+    
+    <item>
+      <title>so I wrote a web server</title>
+      <link>/blog/i-wrote-a-web-server/</link>
+      <pubDate>Sun, 26 Mar 2017 23:21:58 -0400</pubDate>
+      
+      <guid>/blog/i-wrote-a-web-server/</guid>
+      <description>UPDATE 2020:
+This post is no longer accurate since I moved my website from Digital Ocean to Github Pages.
+(this is actually how I ran my site in 2017 though)
+ So I wrote a web server&amp;hellip; &amp;hellip; and you&amp;rsquo;re using it right now! But wait, what is it exactly?
+Well, think of it like an nginx of sorts.
+I named it plexer because I wanted to experiment with multiplexing sockets, and it&amp;rsquo;s written in one of my favorite languages, C.</description>
+    </item>
+    
+  </channel>
+</rss>

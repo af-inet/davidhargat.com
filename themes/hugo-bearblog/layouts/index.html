@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ .Content }}
+<p><strong>Blog</strong></p>
+<ul>
+    {{ range where (where .Site.RegularPages "Type" "blog") "File.Dir" "blog/" }}
+    <li>
+        <p>
+            <span>
+                <i>
+                    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+                        {{ .Date.Format "02 Jan, 2006" }}
+                    </time>
+                </i>
+            </span>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </p>
+    </li>
+    {{ else }}
+    <li>
+        No posts yet
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
