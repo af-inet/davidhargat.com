@@ -9,14 +9,14 @@
     <copyright>Copyright © 2020, David Hargat.</copyright>
     <lastBuildDate>Sat, 12 Sep 2020 21:38:31 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>other blogs </title>
+      <title>other blogs</title>
       <link>/blog/other-blogs/</link>
       <pubDate>Sat, 12 Sep 2020 21:38:31 -0400</pubDate>
       
       <guid>/blog/other-blogs/</guid>
       <description>Some other blogs I enjoy ❤️
-James Fisher
 Julia Evans
+James Fisher
 Evan Klitzke
 Coding Horror
 Naval
@@ -36,6 +36,21 @@ This post is no longer accurate since I moved my website from Digital Ocean to G
  So I wrote a web server&amp;hellip; &amp;hellip; and you&amp;rsquo;re using it right now! But wait, what is it exactly?
 Well, think of it like an nginx of sorts.
 I named it plexer because I wanted to experiment with multiplexing sockets, and it&amp;rsquo;s written in one of my favorite languages, C.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/experience/</guid>
+      <description>Experience Currently
+GIPHY Senior Software Engineer, 2017-present (Aquired by Facebook)
+Previously
+  Slash Keyboard Software Engineer, 2016-2017 (Aquired by GIPHY)
+  The Glass Files Software Engineer, 2015-2016
+  Recurse Center Alum, 2015 (fall 2 batch)
+  </description>
     </item>
     
   </channel>

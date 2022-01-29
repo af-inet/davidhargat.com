@@ -157,23 +157,36 @@ I named it plexer because I wanted to experiment with multiplexing sockets, and 
 
 </style>
 
+<link rel="stylesheet" href="%20style/main.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177934347-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'UA-177934347-1');
 </script>
-</head>
+<style>
+  #me {
+    width: 150px;
+    max-width: 30%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    opacity: 0.75;
+  }
+  ul {
+    list-style-type: square;
+  }
+
+</style></head>
 
 <body>
   <header><a href="/" class="title">
-  <h2>David Hargat</h2>
+  <img id="me" src="/img/me3.jpg"></img>
+  <h1 id="title">David Hargat</h1>
 </a>
-<nav><a href="/">Home</a>
+<nav>
 
-<a href="/blog">Blog</a>
 </nav>
 </header>
   <main>
@@ -202,7 +215,7 @@ I named it plexer because I wanted to experiment with multiplexing sockets, and 
 <p>So if you were to compile and run it right now - you&rsquo;ll see an index of the source files, something like this:</p>
 <p><img src="/img/about-this-blog.jpg" alt="plexer running inside a terminal"></p>
 <p>And that&rsquo;s about it! I have it running on a cheap digital ocean droplet in a folder with a bunch of html (thats all this site is).</p>
-<p>There are also <a href="https://github.com/af-inet/personal/tree/master/bin">some scripts for deploying plexer</a> (packaged with my personal site) on debian. It&rsquo;s set up with a cronjob to poll my github and automatically re-deploy when I push any changes.</p>
+<p>There are also some scripts for deploying plexer (packaged with my personal site) on debian. It&rsquo;s set up with a cronjob to poll my github and automatically re-deploy when I push any changes.</p>
 <p>In the future I plan to write more posts detailing all the interesting things I&rsquo;ve learned (and am still learning) working on plexer.</p>
 <h2 id="try-it-yourself">Try it yourself:</h2>
 <pre tabindex="0"><code>git clone https://github.com/af-inet/plexer
@@ -227,7 +240,6 @@ make
   </main>
   <footer>
 </footer>
-
     
 </body>
 

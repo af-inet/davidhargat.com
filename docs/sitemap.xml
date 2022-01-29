@@ -23,5 +23,8 @@
   </url><url>
     <loc>/blog/i-wrote-a-web-server/</loc>
     <lastmod>2017-03-26T23:21:58-04:00</lastmod>
+  </url><url>
+    <loc>/experience/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

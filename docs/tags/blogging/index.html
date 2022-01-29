@@ -32,6 +32,7 @@
 <meta itemprop="description" content="David Hargat&#39;s personal blog">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
+  
   <link rel="alternate" type="application/rss+xml" href="/tags/blogging/index.xml" title="David Hargat" />
   <style>
   body {
@@ -133,23 +134,36 @@
 
 </style>
 
+<link rel="stylesheet" href="%20style/main.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177934347-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'UA-177934347-1');
 </script>
-</head>
+<style>
+  #me {
+    width: 150px;
+    max-width: 30%;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    opacity: 0.75;
+  }
+  ul {
+    list-style-type: square;
+  }
+
+</style></head>
 
 <body>
   <header><a href="/" class="title">
-  <h2>David Hargat</h2>
+  <img id="me" src="/img/me3.jpg"></img>
+  <h1 id="title">David Hargat</h1>
 </a>
-<nav><a href="/">Home</a>
+<nav>
 
-<a href="/blog">Blog</a>
 </nav>
 </header>
   <main>
@@ -170,7 +184,6 @@
   li a:visited {
     color: #6532dc;
   }
-
 </style>
 <content>
   
@@ -189,7 +202,7 @@
           </time>
         </i>
       </span>
-      <a href="/blog/other-blogs/">other blogs </a>
+      <a href="/blog/other-blogs/">other blogs</a>
     </li>
     
     <li>
@@ -211,7 +224,6 @@
   </main>
   <footer>
 </footer>
-
     
 </body>
 
