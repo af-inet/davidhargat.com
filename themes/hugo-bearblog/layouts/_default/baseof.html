@@ -31,8 +31,10 @@
   <main>
     {{- block "main" . }}{{- end }}
   </main>
+  {{- partial "share.html" . -}}
   <footer>
     {{- partial "footer.html" . -}}
+    <!--/ social media share buttons -->
   </footer>
   <!-- A partial to be overwritten by the user.
   Simply place a custom_body.html into
