@@ -3,7 +3,7 @@ languageCode: en-us
 title: David Hargat
 theme: hugo-bearblog
 author: David Hargat
-copyright: 'Copyright © 2020, David Hargat.'
+copyright: 'Copyright © 2022, David Hargat.'
 enableRobotsTXT: true
 disableKinds:
   - taxonomy
@@ -28,8 +28,9 @@ googleAnalytics: G-WREMP9YVBQ
 
 params:
   description: David Hargat's personal blog
-  favicon: images/favicon.png
+  favicon: favicon.ico
   images:
     - images/share.png
   title: David Hargat
   hideMadeWithLine: true
+  avatar: /img/me3.jpg
