@@ -2,11 +2,11 @@
 
 **Currently**
 
-[GIPHY](https://giphy.com) Senior Software Engineer, 2017-present (Aquired by Facebook)
+[GIPHY](https://giphy.com) Senior Software Engineer, 2017-present (Acquired by Facebook)
 
 **Previously**
 
-- [Slash Keyboard](https://www.crunchbase.com/organization/slash-2) Software Engineer, 2016-2017 (Aquired by GIPHY)
+- [Slash Keyboard](https://www.crunchbase.com/organization/slash-2) Software Engineer, 2016-2017 (Acquired by GIPHY)
 
 - [The Glass Files](https://www.theglassfiles.com/) Software Engineer, 2015-2016
 
