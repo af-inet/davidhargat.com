@@ -25,10 +25,10 @@ This post is no longer accurate since I moved my website from Digital Ocean to G
 Well, think of it like an nginx of sorts.
 I named it plexer because I wanted to experiment with multiplexing sockets, and it&rsquo;s written in one of my favorite languages, C." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://davidhargat.com/blog/i-wrote-a-web-server/" /><meta property="og:image" content="https://davidhargat.com/images/share.png"/><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://davidhargat.com/blog/i-wrote-a-web-server/" />
+<meta property="og:image" content="https://davidhargat.com/images/share.png"/>
 <meta property="article:published_time" content="2017-03-26T23:21:58-04:00" />
 <meta property="article:modified_time" content="2017-03-26T23:21:58-04:00" /><meta property="og:site_name" content="David Hargat" />
-
 
 
 
@@ -51,10 +51,16 @@ This post is no longer accurate since I moved my website from Digital Ocean to G
 (this is actually how I ran my site in 2017 though)
  So I wrote a web server&hellip; &hellip; and you&rsquo;re using it right now! But wait, what is it exactly?
 Well, think of it like an nginx of sorts.
-I named it plexer because I wanted to experiment with multiplexing sockets, and it&rsquo;s written in one of my favorite languages, C."><meta itemprop="datePublished" content="2017-03-26T23:21:58-04:00" />
+I named it plexer because I wanted to experiment with multiplexing sockets, and it&rsquo;s written in one of my favorite languages, C.">
+<meta itemprop="datePublished" content="2017-03-26T23:21:58-04:00" />
 <meta itemprop="dateModified" content="2017-03-26T23:21:58-04:00" />
-<meta itemprop="wordCount" content="270"><meta itemprop="image" content="https://davidhargat.com/images/share.png"/>
+<meta itemprop="wordCount" content="270">
+<meta itemprop="image" content="https://davidhargat.com/images/share.png"/>
+
+
+
 <meta itemprop="keywords" content="blogging,c,server," />
+
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -248,7 +254,7 @@ a:hover.email {
 <p>There are also some scripts for deploying plexer (packaged with my personal site) on debian. It&rsquo;s set up with a cronjob to poll my github and automatically re-deploy when I push any changes.</p>
 <p>In the future I plan to write more posts detailing all the interesting things I&rsquo;ve learned (and am still learning) working on plexer.</p>
 <h2 id="try-it-yourself">Try it yourself:</h2>
-<pre tabindex="0"><code>git clone https://github.com/af-inet/plexer
+<pre><code>git clone https://github.com/af-inet/plexer
 cd plexer
 make
 ./plexer -vp 8080 # verbose, run on port 8080

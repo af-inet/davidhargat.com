@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022, David Hargat.</copyright>
-    <lastBuildDate>Sat, 12 Sep 2020 21:38:31 -0400</lastBuildDate><atom:link href="https://davidhargat.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Sep 2020 21:38:31 -0400</lastBuildDate>
+    
+	<atom:link href="https://davidhargat.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>other blogs</title>
       <link>https://davidhargat.com/blog/other-blogs/</link>
@@ -45,9 +49,9 @@ I named it plexer because I wanted to experiment with multiplexing sockets, and 
       
       <guid>https://davidhargat.com/experience/</guid>
       <description>Experience Currently
-GIPHY Senior Software Engineer, 2017-present (Aquired by Facebook)
+GIPHY Senior Software Engineer, 2017-present (Acquired by Facebook)
 Previously
-  Slash Keyboard Software Engineer, 2016-2017 (Aquired by GIPHY)
+  Slash Keyboard Software Engineer, 2016-2017 (Acquired by GIPHY)
   The Glass Files Software Engineer, 2015-2016
   Recurse Center Alum, 2015 (fall 2 batch)
   </description>
